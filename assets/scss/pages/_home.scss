@@ -1,0 +1,77 @@
+.home {
+  .banner {
+    background: url(../images/home/banner-bg.png) no-repeat center center/cover;
+    padding: 30px 0 150px 0;
+
+    .banner-title {
+      font-family: Smacklaidethdown2019;
+      font-size: 7vw;
+
+      @media (min-width: 768px) {
+        font-size: 55px;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 36px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 43px;
+      }
+      @media (min-width: 1400px) {
+        font-size: 50px;
+      }
+    }
+
+    @media (max-width: 1300px) {
+      .wave {
+        bottom: 0;
+      }
+    }
+  }
+
+  .join-best-program {
+    .title {
+      font-family: Gloss-And-Bloom;
+      text-align: center;
+      margin-bottom: 20px;
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+    .lead {
+      font-family: Tahoma, sans-serif;
+    }
+  }
+
+  .board-pay-plan {
+    .title {
+      font-family: Tahoma, sans-serif;
+      color: #01992a;
+      font-weight: bold;
+
+      @media (min-width: 1200px) {
+        font-size: 50px;
+      }
+    }
+    p {
+      font-family: Tahoma, sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  .total-rewards {
+    .title {
+      font-family: Gloss-And-Bloom;
+      margin-bottom: 20px;
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+    .total-rewards-description {
+      @media (min-width: 1200px) {
+        font-family: Tahoma, sans-serif;
+        // font-size: 18px;
+      }
+    }
+  }
+}
