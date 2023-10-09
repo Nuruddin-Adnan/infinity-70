@@ -135,15 +135,23 @@ body {
   font-family: Gloss-And-Bloom;
   margin-bottom: 20px;
 }
+@media (min-width: 768px) {
+  .home .total-rewards .title {
+    font-size: 50px;
+  }
+}
 @media (min-width: 1200px) {
   .home .total-rewards .title {
-    font-size: 40px;
+    font-size: 60px;
   }
 }
-@media (min-width: 1200px) {
-  .home .total-rewards .total-rewards-description {
-    font-family: Tahoma, sans-serif;
+@media (min-width: 1400px) {
+  .home .total-rewards .title {
+    font-size: 70px;
   }
+}
+.home .total-rewards .total-rewards-description {
+  font-family: Tahoma, sans-serif;
 }
 
-/*===// end of pages  === *//*# sourceMappingURL=style.css.map */
+/*===// end of pages  === */

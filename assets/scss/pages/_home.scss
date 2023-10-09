@@ -63,15 +63,18 @@
     .title {
       font-family: Gloss-And-Bloom;
       margin-bottom: 20px;
+      @media (min-width: 768px) {
+        font-size: 50px;
+      }
       @media (min-width: 1200px) {
-        font-size: 40px;
+        font-size: 60px;
+      }
+      @media (min-width: 1400px) {
+        font-size: 70px;
       }
     }
     .total-rewards-description {
-      @media (min-width: 1200px) {
-        font-family: Tahoma, sans-serif;
-        // font-size: 18px;
-      }
+      font-family: Tahoma, sans-serif;
     }
   }
 }
